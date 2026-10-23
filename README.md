@@ -7,6 +7,9 @@ OpenPhenom autoencoder embeddings, structure-tensor and TDAExplore
 persistence-landscape features, and normalization and retrieval scoring of
 well profiles.
 
+## Copyright
+Copyright (C) 2026 [Parker Edwards](parkeredw.com)
+
 ## Installation
 
 Requirements: [conda](https://docs.conda.io/) (Miniconda or Anaconda). An
