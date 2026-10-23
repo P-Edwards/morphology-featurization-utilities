@@ -1,0 +1,29 @@
+# Python build and cache files
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OpenPhenom model code and license, downloaded by install_openphenom.sh
+/openphenom/openphenom/*
+!/openphenom/openphenom/__init__.py
+
+# Conda environment, packed environments and pip cache
+/taxane_conda_env/
+*.tar.gz
+/.pip_cache/
+
+# Experiments, cluster (SLURM) job support and their data, results and logs
+/experiments/
+/support/
+/pack_env.sh
+/pack_env_tmpdir.sh
+/HANDOFF.md
+/data/
+/results/
+/logs/
+/cache/

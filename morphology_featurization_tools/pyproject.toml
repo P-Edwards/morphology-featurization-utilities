@@ -1,0 +1,18 @@
+[project]
+name = "morphology_featurization_tools"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=3.0.1",
+    "pillow>=10,<12",
+    "scikit-image>=0.26.0",
+    "scikit-learn>=1.8.0",
+    "scipy>=1.17.1",
+    "joblib",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+

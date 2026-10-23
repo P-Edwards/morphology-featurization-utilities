@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tdaexplore"
+version = "1.0.0"
+description = "ExPLoratory Topological Image Analysis with Persistence Landscapes"
+readme = "README.md"
+license = "GPL-3.0-or-later"
+license-files = ["LICENSE.txt"]
+authors = [{ name = "Parker Edwards", email = "parker.edwards@nd.edu" }]
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=1.25",
+    "scipy>=1.8",
+    "scikit-learn>=1.1",
+    "gudhi>=3.5",
+    "imageio>=2.9",
+    "joblib>=1.0",
+]
+
+[project.optional-dependencies]
+plotting = ["matplotlib>=3.5"]
+test = ["pytest", "matplotlib>=3.5"]
+
+[project.urls]
+Homepage = "https://github.com/P-Edwards/TDAExplore"
+
+[tool.setuptools.packages.find]
+where = ["src"]
